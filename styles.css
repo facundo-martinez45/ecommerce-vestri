@@ -1,0 +1,801 @@
+/*Fuentes*/
+.cal-sans-regular {
+  font-family: "EB Garamond", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+/*Cuerpo*/
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+  font-family: "EB Garamond", sans-serif;
+}
+header {
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  box-shadow: 0px -2px 40px black;
+  opacity: 0.9;
+  top: 0px;
+  position: fixed;
+  z-index: 2;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  flex-wrap: wrap;
+}
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  font-size: 30px;
+  padding: 1%;
+  margin-right: 5%;
+  transition: all 0.5s ease-in-out;
+}
+li:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  transition: all 0.5s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  color: rgb(0, 0, 0);
+  padding: 5%;
+  white-space: pre;
+}
+a:hover {
+  color: #ac8738;
+  transition: all 0.5s ease-in-out;
+  text-shadow: #ac8738 0px 0px 6px;
+}
+
+.busqueda {
+  color: black;
+  margin-right: 5%;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+}
+.busqueda:hover {
+  transform: scale(1.02);
+  transition: all 0.5s ease-in-out;
+}
+button {
+  color: rgb(255, 255, 255);
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+  color: #ac8738;
+  transition: all 0.5s ease-in-out;
+}
+
+.logo img {
+  max-height: 110px;
+  border-radius: 75px;
+  box-shadow: 0px 0px 30px black;
+  transition: all 0.5s ease-in-out;
+}
+.logo img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+section {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  margin-top: 5%;
+}
+img {
+  border-radius: 22px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  flex-wrap: wrap;
+}
+
+aside {
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  background-color: #97752d00;
+}
+aside h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+button {
+  background-color: rgb(0, 0, 0);
+}
+.offcanvas {
+  z-index: 1055 !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+}
+.offcanvas-body ul {
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+}
+.offcanvas-body a {
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;
+}
+.offcanvas-body a:hover {
+  color: #ac8738;
+  transition: all 0.3s ease-in-out;
+}
+.carousel-item img {
+  width: auto;
+  height: 720px;
+}
+.intro {
+  text-align: center;
+  font-family: EB Garamond;
+  margin-top: -3%;
+  margin-bottom: -2%;
+}
+.btn {
+  width: 5%;
+  background: rgb(255, 255, 255);
+  border-radius: none;
+  border: none;
+}
+.btn:hover {
+  background: #f0eeeb;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.carousel-item h5 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.productos-destacados {
+  padding: 2%;
+  border-radius: 15px;
+  width: 40%;
+  height: auto;
+  margin: auto;
+  font-family: tahoma;
+  font-weight: bold;
+}
+
+.productos-destacados h2 {
+  margin-bottom: 20px;
+}
+
+.destacados-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.destacado h3 {
+  color: #ac8738;
+  margin-bottom: 5px;
+}
+
+.destacado p {
+  margin: 0;
+  color: #444;
+}
+
+.final {
+  margin-top: 30px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+.crc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carta {
+  width: 20%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: eb garamond;
+  font-weight: bold;
+  font-size: 21px;
+  padding: 2%;
+  flex-direction: column;
+}
+.carta img {
+  width: 60%;
+  margin: 10%;
+  border-radius: 0;
+}
+#efecto:hover {
+  transform: rotate(360deg);
+  transition: all 0.7s ease-in-out;
+}
+#pop:hover {
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+}
+#giro:hover {
+  transform: rotate(360deg);
+  transition: all 0.4s ease-in-out;
+}
+#shake:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+}
+.intro p {
+  font-size: 1.5em;
+}
+.ofertas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+.oferta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  min-height: auto;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 12px;
+  padding: 2%;
+  margin: 5px;
+  background-color: #f1f1f1;
+  transition: all 0.3s ease-in-out;
+}
+.oferta:hover {
+  transform: scale(1.01);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.oferta img {
+  width: 70%;
+  max-height: 300px;
+  border-radius: 10px;
+}
+.carousel-example-dark {
+  z-index: -1000;
+}
+.ofertas-busqueda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.ofertas-busqueda h2 {
+  text-decoration: underline;
+}
+.redes img {
+  max-width: 50px;
+  border-radius: 0;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  white-space: pre;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  box-shadow: 0px -2px 40px black;
+  margin-top: 10%;
+  padding: 2%;
+}
+footer a {
+  color: white;
+}
+footer h3 {
+  color: #ac8738;
+}
+.bajo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.links,
+.contacto,
+.mapa,
+.redes {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+}
+.red {
+  display: flex;
+  flex-direction: row;
+}
+.red img {
+  filter: brightness(0) invert(1);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.red img:hover {
+  filter: brightness(1) invert(0);
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.red img {
+  margin: 0 10px;
+  transition: all 0.3s ease-in-out;
+}
+.red img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.banner-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url("./assets/img/fondo.jpeg");
+  padding: 2%;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.9) !important;
+  transition: all 0.5s ease-in-out;
+}
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  height: 700px;
+  margin-right: 7%;
+  border-radius: 12px;
+  width: 30%;
+  background-image: url("./assets/img/fondo.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 5%;
+  transition: all 0.5s ease-in-out;
+  font-weight: bold;
+  filter: brightness(1) opacity(1);
+}
+.banner p {
+  width: 70%;
+  font-size: 20px;
+}
+.banner:hover {
+  transform: scale(1.02);
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.507);
+  transition: all 0.5s ease-in-out;
+}
+.banner-section:hover {
+  filter: brightness(1) !important;
+  transition: all 0.5s ease-in-out;
+}
+.frase-moda {
+  width: 60%;
+  font-size: 35px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  border-radius: 8px;
+  line-height: 1.4;
+  font-style: italic;
+  transition: all 0.3s ease;
+}
+
+.frase-moda:hover {
+  transform: scale(1.03);
+  background-color: #f5f3f1;
+  color: #ac8738;
+}
+/*---Catalogo---*/
+.contenido {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3em;
+}
+.clientes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  flex-direction: column;
+}
+.opinion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  font-family: tahoma;
+  width: 30%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.opinion:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+.opinion img {
+  max-width: 200px;
+}
+.opiniones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/*-----Media_Querys-----*/
+
+@media (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  nav {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  main {
+    width: 98%;
+    height: auto;
+    margin: auto;
+    padding: auto;
+  }
+  header,
+  footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bajo {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+    flex-direction: column;
+  }
+  .todo {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .links,
+  .contacto,
+  .mapa,
+  .redes,
+  .red {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .btn img {
+    width: 100%;
+    height: auto;
+  }
+  .btn {
+    width: 25%;
+  }
+  ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .ofertas {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+  .oferta {
+    width: 200px;
+    height: 300px;
+    margin: 1%;
+    padding: auto;
+  }
+  .ofertas-exclusivas {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  footer ul li {
+    padding: 1%;
+  }
+  .logo1 {
+    margin-left: -10%;
+  }
+  .opiniones {
+    width: 100%;
+    height: auto;
+  }
+  .opinion {
+    width: 100%;
+  }
+  section,
+  aside {
+    width: 100%;
+  }
+  .banner-section {
+    max-height: 600px;
+  }
+  .banner {
+    max-height: 400px;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.507);
+  }
+  .banner p {
+    font-size: 15px;
+  }
+  .banner h2 {
+    font-size: 17px;
+  }
+  form {
+    transform: scale(0.7);
+  }
+  .productos-destacados {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  aside {
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+  .crc {
+    flex-direction: wrap;
+    flex-direction: column;
+  }
+  .carta {
+    width: 50%;
+    box-shadow: #000 0px 0px 10px;
+    border-radius: 12px;
+    margin: 5%;
+  }
+  #carouselExampleAutoplaying img {
+    max-height: 400px;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+    overflow-x: hidden;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  nav {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  main {
+    width: 98%;
+    height: auto;
+    margin: auto;
+    padding: auto;
+  }
+  header,
+  footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bajo {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+    flex-direction: column;
+  }
+  .todo {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .links,
+  .contacto,
+  .mapa,
+  .redes,
+  .red {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .btn img {
+    width: 100%;
+    height: auto;
+  }
+  .btn {
+    width: 100px;
+  }
+  ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .ofertas {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+  .oferta {
+    width: 200px;
+    height: 300px;
+    margin: 1%;
+    padding: auto;
+  }
+  .ofertas-exclusivas {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  footer ul li {
+    padding: 1%;
+  }
+  .logo1 {
+    margin-left: -10%;
+  }
+  .opiniones {
+    width: 100%;
+    height: auto;
+  }
+  .opinion {
+    width: 100%;
+  }
+  section,
+  aside {
+    width: 100%;
+  }
+  .banner-section {
+    max-height: 600px;
+  }
+  .banner {
+    max-height: 400px;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.507);
+  }
+  .banner p {
+    font-size: 17px;
+  }
+  .banner h2 {
+    font-size: 21px;
+  }
+  form {
+    transform: scale(0.7);
+  }
+  .productos-destacados {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  aside {
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+  .crc {
+    flex-direction: wrap;
+    flex-direction: column;
+  }
+  .carta {
+    width: 40%;
+
+    box-shadow: #000 0px 0px 10px;
+    border-radius: 12px;
+    margin: 2%;
+  }
+  #carouselExampleAutoplaying img {
+    max-height: 400px;
+  }
+}
